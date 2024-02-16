@@ -1,0 +1,209 @@
+.btn{
+  height: 60px;
+  background-color:navy;
+}
+.navbar1{
+  height: 80%;
+  background-color: rgb(246, 146, 146);
+}
+.navbar-nav{
+  color:rgb(248, 248, 32);
+}
+.Heading{
+  
+  height: 80px;
+  text-align: center;
+}
+.Heading h1{
+  margin-top: 30px;
+}
+
+/* Rides */
+ .containerr{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 40px;
+  height: auto;
+}
+.image-container {
+  flex: 1;
+  background-color: rgb(209, 237, 245);
+}
+.imgclass{
+  width: 100%;
+  height: 100%;
+ 
+} 
+.htr{
+  background-color: rgb(209, 237, 245);
+  flex: 1;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .image-container {
+    flex: 100%; 
+  }
+}
+@media screen and (max-width: 600px) {
+  .htr {
+    flex: 100%; 
+  }
+}
+
+.htrride{
+  flex: 1 0 10%; 
+  margin: 10px; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+.htrride h1{
+  margin-top: 50px;
+}
+.htrride h5{
+  line-height: 3rem;
+  word-spacing: 9px;
+  font-size: x-large;
+}
+.imgclass1{
+  width: 100%;
+  height: 100%;
+} 
+
+.responsive-video {
+  background-color: rgb(249, 204, 59);
+}
+.htrHeading{
+  text-align: center;
+}
+ /* Card  */
+.Card{
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 500px;
+  padding: 20px;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px; 
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: calc(100% - 20px); /* Single card per row on even smaller screens */
+  }
+}
+/* Offers  */
+
+ .manasa h1{
+  text-align: center;
+  color: navy;
+} 
+.offerdetails{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  row-gap: 90px;
+  gap: 100px;
+  
+} 
+.offers{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 25%;
+  height: 25%;
+  overflow: hidden;
+  text-align: center;
+  line-height: 2;
+}
+.offers h3{
+  color: navy;
+}
+.offerimg{
+  width: 100%;
+  height: 100%;
+}
+.offers:hover{
+  scale: 1.1;
+  box-shadow: 10px 10px rgb(197, 197, 191);
+}
+
+/* booknow */
+
+.booking-container {
+  position: relative;
+  top: 50px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid navy;
+  width: 50%;
+  background-color: rgb(244, 167, 167);
+  overflow: hidden;
+}
+.ticket-section {
+  flex: 1;
+}
+.ticket-type {
+  margin-bottom: 20px;
+}
+.total-section {
+  flex: 1;
+  margin-left: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+span {
+  margin: 0 5px;
+}
+
+/* timings */
+.totalcontainer{
+  background-color: rgb(223, 220, 244);
+}
+.containerss{
+  /* margin-top: 30px; */
+  text-align: center;
+}
+.head{
+  text-align: center;
+  margin-top: 20px;
+}
+.timing{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 50%;
+  
+}
+.timing1{
+  flex: 1;
+  background-color:#ffd336;
+  color: black;
+  text-align: center;
+}
+.timing2{
+  background-color:#0a2254;
+  color: white;
+  flex: 1;
+  text-align: center;
+}
+.head1{
+  margin-top: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .timing1 .timing2{
+    flex: 100%; 
+  }
+}
